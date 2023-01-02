@@ -3,5 +3,5 @@ def test_2_not():
   assert False
 
 def test_2_check():
-  print("THIS IS A TEST IN PYTEST BUT NOT IN PANTS")
+  print("THIS IS A TEST")
   assert True
