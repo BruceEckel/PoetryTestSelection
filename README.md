@@ -9,7 +9,7 @@ looks for class names prefixed with `Test` but we will not cover those here).
 This repository demonstrates how to choose alternate Pytest file and function
 names when using Poetry. Following the suggestions
 [here](https://docs.pytest.org/en/7.1.x/example/pythoncollection.html#customizing-test-collection),
-we configure Poetry to search all python files for tests. Using the example
+we configure Pytest to search all python files for tests. Using the example
 [here](https://docs.pytest.org/en/7.1.x/example/pythoncollection.html#changing-naming-conventions)
 we consider a test function to be one with a name ending in `_check`. The parts
 of the `pytest.ini` file that produce these effects for Pytest look like this:
